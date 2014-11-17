@@ -1,12 +1,16 @@
 Carabiner
 ========
-
 A grunt setup for clipping your web projects together.
 
 Usage
 -----
-
-1. Clone
+1. Clone the project
 2. Run `npm install`
-3. Run `grunt` to keep compiling during development
-4. Run `grunt build` to build and lint a version ready for shipping
+
+Tasks
+-----
+|   Command  |                                         Action                                        |
+|:----------:|:-------------------------------------------------------------------------------------:|
+| grunt      | Full build: run tests, lint, concatenate and minify for distribution                  |
+| grunt test | Run jamine and jshint                                                                 |
+| grunt dev  | Run a webserver on localhost:8080 and recompile JS and CSS files when any are changed |

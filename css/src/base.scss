@@ -72,11 +72,15 @@ section{
     padding:2em;
     background:rgba(30,30,30,0.5);
     color:white;
+    &:nth-child(even){
+      color:#333;
+      background:rgba(230,230,230,0.5);
+    }
+    &.waypoint_reached{
+      background:rgba(255,200,200,0.5);
+    }
 }
-section:nth-child(even){
-    background:rgba(230,230,230,0.5);
-    color:#333;
-}
+
 section h2{
     margin-bottom:1em;
 }

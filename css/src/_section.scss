@@ -1,0 +1,16 @@
+section{
+  min-height:40em;
+  padding:2em;
+  background:rgba(30,30,30,0.5);
+  color:white;
+  &:nth-child(even){
+    background:rgba(230,230,230,0.5);
+    color:#333;
+  }
+  h2{
+    margin-bottom:1em;
+    a{
+      font-size:2em;
+    }
+  }
+}

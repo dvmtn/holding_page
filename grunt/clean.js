@@ -1,5 +1,7 @@
 module.exports = {
-  js: [
-    'js/dist/*.js'
-  ]
+  js: [ 'dist/*.js' ],
+  css: [ 'dist/*.css' ],
+  html: [ 'dist/*.html' ],
+  map: [ 'dist/*.map'],
+  images: [ 'dist/images/**']
 };

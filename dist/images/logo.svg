@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="744" height="646">
-    <g class="mountain">
-        <path d="M 8 640 334 7 420 116 499 160 737 640 z" class="outline" fill="none" stroke="white" stroke-width="12" />
-        <path d="m 338 42 70 89 77 42 82 165 -46 -36 -33 30 -39 -39 -31 39 -41 -30 -33 30 -39 -21 -34 21 -37 -30 -50 37 z" fill="white" />
-    </g>
-</svg>

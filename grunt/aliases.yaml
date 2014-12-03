@@ -1,0 +1,18 @@
+default:
+  - 'clean'
+  - 'concat'
+  - 'uglify'
+  - 'sass'
+  - 'copy:html'
+  - 'haml'
+  - 'jshint'
+  - 'jasmine'
+  - 'imagemin'
+
+test:
+  - 'jasmine'
+  - 'jshint'
+
+dev:
+  - 'http-server'
+  - 'watch'

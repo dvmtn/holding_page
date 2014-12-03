@@ -15,13 +15,17 @@ window.devmountain = {};
   window.devmountain.App = function(){
     var sticky_nav = new devmountain.StickyNav();
     var scrolling_nav = new devmountain.ScrollingNav();
+    this.waypointer = new devmountain.Waypointer();
+    this.ui = new devmountain.UI();
   };
 }());
+
 (function(){
   $(function(){
     var app = new devmountain.App();
   });
 }());
+
 (function(){
   window.devmountain.ScrollingNav = function(){
     var calculate_target_top = function(event){
@@ -77,6 +81,25 @@ window.devmountain = {};
   };
 }());
 (function(){
+  window.devmountain.UI = function(){
+    var init = function(){
+      bind_to_namespace();
+    };
+    var activate = function(event, options){
+      $('.waypoint_reached').removeClass('waypoint_reached');
+      options.element.addClass('waypoint_reached');
+      if(options.complete){
+        options.complete();
+      }
+    };
+    var bind_to_namespace = function(){
+      $(devmountain).on('waypoint',activate);
+    };
+    init();
+  };
+}());
+
+(function(){
   window.devmountain.util = {
     larger_than_mobile: function(){
       return window.innerWidth > 620;
@@ -86,3 +109,32 @@ window.devmountain = {};
     },
   };
 }());
+(function(){
+  window.devmountain.Waypointer = function(){
+
+    var init = function(){
+      bind_to_dom();
+    };
+
+    var bind_to_dom = function(){
+
+      $('section').waypoint( function(direction){
+        $(devmountain).trigger('waypoint', {
+          element: $(this),
+          direction: direction
+        });
+      });
+
+      $('nav').waypoint( function(direction){
+        $(devmountain).trigger('waypoint_nav', {
+          element: $(this),
+          direction: direction
+        });
+      });
+
+    };
+
+    init();
+  };
+}());
+

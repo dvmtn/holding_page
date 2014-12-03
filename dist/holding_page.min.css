@@ -65,6 +65,8 @@ a {
 
 footer {
   background: #333; }
+  footer p {
+    color: #aaa; }
 
 footer p {
   font-size: 1em; }

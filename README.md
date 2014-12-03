@@ -1,6 +1,6 @@
-Carabiner
-=========
-A grunt setup for clipping your web projects together.
+Holding Page
+============
+Built using carabiner, carabiner instructions below:
 
 Installation
 ------------
@@ -30,3 +30,8 @@ Tasks
 Config
 ------
 - Define new tasks in `grunt/aliases.yaml`
+
+Deploy
+------
+To deploy run grunt to compile the dist folder then use the following.
+`git subtree push --prefix dist origin gh-pages`

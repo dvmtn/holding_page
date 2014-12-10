@@ -6,6 +6,12 @@
   font-weight:lighter;
   line-height: 1.4em;
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 article{
   background:rgb(20, 104, 140);
   border-bottom: 0.2em white solid;
@@ -14,8 +20,8 @@ header{
   text-align:center;
   margin-bottom:3em;
 }
-section{
-  max-width:47em;
+.wrapper{
+  max-width:752px;
   margin:0 auto;
   padding:3em;
   text-align:justify;
@@ -50,6 +56,14 @@ h1{
     font-size:3em;
   }
 }
+h3{
+  color:white;
+  font-size: 1.2em;
+  margin-bottom:0.2em;
+}
+h4{
+  color:white;
+}
 p{
   color:white;
   font-size:2em;
@@ -76,12 +90,48 @@ a{
   text-shadow:2px 2px 0 rgba(0,0,0,0.2);
 }
 footer{
-  background:#333;
-  p{
-    color:#aaa;
+  background:#222;
+  .wrapper{
+    font-size:0;
+    padding:48px;
+  }
+  section{
+    font-size:16px;
+    width: 33%;
+    display: inline-block;
+    vertical-align:top;
+    padding:0.5em;
+    &:first-child{
+      padding-left:0;
+    }
+    &:last-child{
+      padding-right:0;
+    }
+    p{
+      color:#ccc;
+      font-size:1em;
+    }
+    a{
+      text-shadow:none;
+      font-weight:lighter;
+      color:#ccc;
+      &:hover{
+        background:#777;
+      }
+    }
+  }
+
+}
+@media(max-width: 752px){
+  footer{
+    section{
+      display:block;
+      width: auto;
+      padding:1em;
+      &:first-child,
+      &:last-child{
+        padding:1em;
+      }
+    }
   }
 }
-footer p{
-  font-size:1em;
-}
-

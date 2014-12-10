@@ -59,7 +59,7 @@ h1{
 h3{
   color:white;
   font-size: 1.2em;
-  margin-bottom:0.2em;
+  margin-bottom:0.4em;
 }
 h4{
   color:white;
@@ -88,6 +88,25 @@ a{
   font-weight:normal;
   font-size:1em;
   text-shadow:2px 2px 0 rgba(0,0,0,0.2);
+  border-radius: 3px;
+  padding-top:3px;
+  padding-bottom:3px;
+  transition: background 0.2s, color 0.2s;
+  &:hover{
+    color:#333;
+    background:white;
+  }
+  i:hover{
+    color:#333;
+    background:white;
+  }
+}
+address{
+  color:white;
+}
+i{
+  color:white;
+  border-radius: 3px;
 }
 footer{
   background:#222;
@@ -114,13 +133,18 @@ footer{
     a{
       text-shadow:none;
       font-weight:lighter;
-      color:#ccc;
-      &:hover{
-        background:#777;
-      }
     }
   }
-
+  .service-link{
+    i{
+      font-size:2em;
+      padding:0.2em;
+    }
+    a:hover{
+      background:none;
+      color:none;
+    }
+  }
 }
 @media(max-width: 752px){
   footer{

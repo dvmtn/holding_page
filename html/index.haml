@@ -5,6 +5,8 @@
     %title Developer Mountain
     %link{:href => 'http://fonts.googleapis.com/css?family=Lato:300,400,700', :rel =>'stylesheet'}
     %link{:href => "holding_page.min.css", :rel => "stylesheet"}
+    %link{:href => "fontello.css", :rel => "stylesheet"}
+
     %meta{:content => "width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no", :name => "viewport"}
     %meta{:content => "yes", :name => "apple-touch-fullscreen"}
     %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}
@@ -49,28 +51,29 @@
           We&rsquo;d love to chat to you, please
           = succeed '!' do
             %a{ href: 'mailto:hello@devmountain.co.uk' }contact us
-        %p
-          If you&rsquo;d like to see some of our work, checkout our projects on
-          = succeed '.' do
-            %a{ href: 'https://github.com/dvmtn'}github
 
     %script{:src => "holding_page.js"}
     %footer
       .wrapper
         %section
-          %h3 Contact
-          %h4 Email
-          %a{ href: 'mailto:hello@devmountain.co.uk' }hello[at]devmountain.co.uk
-          %h4 Post
-          %p Developer Mountain Ltd, CO LB Group, 7 Hydra, Orion Court, Addison Way, Gt Blakenham, Suffolk, IP6 0LW
-        %section
           %h3 Find us
-          %p
-            %a.twitter-follow-button{"data-dnt" => "true", "data-show-count" => "false", "data-size" => "large", :href => "https://twitter.com/DvMtn"} Follow @DvMtn
-            :javascript
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-            %a.github-button{"data-style" => "mega", :href => "https://github.com/dvmtn"} Follow @dvmtn
-            %script#github-bjs{:async => "", :defer => "", :src => "https://buttons.github.io/buttons.js"}
+          %a.service-link{href:'https://github.com/dvmtn'}
+            %i.icon-github
+          %a.service-link{href:'https://twitter.com/dvmtn'}
+            %i.icon-twitter
+        %section
+          %h3 Contact Details
+          %i.icon-email
+          %a{ href: 'mailto:hello@devmountain.co.uk' }hello[at]devmountain.co.uk
+          %i.icon-home
+          %address
+            Developer Mountain Ltd.
+            CO LB Group,
+            7 Hydra, Orion Court,
+            Addison Way,
+            Gt Blakenham,
+            Suffolk,
+            IP6 0LW
         %section
           %h3 Legal stuff
           %p Developer Mountain Ltd. is a company registered in England & Wales with company number '09288865' and VAT number '199 6900 45'

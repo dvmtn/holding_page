@@ -76,7 +76,6 @@ p:last-child{
   p{
     font-size:1.5em;
   }
-
 }
 strong{
   font-size:1em;
@@ -84,35 +83,41 @@ strong{
 }
 a{
   color:white;
+  display:inline-block;
   text-decoration: none;
   font-weight:normal;
   font-size:1em;
   text-shadow:2px 2px 0 rgba(0,0,0,0.2);
-  border-radius: 3px;
-  padding-top:3px;
-  padding-bottom:3px;
-  transition: background 0.2s, color 0.2s;
+  transition: border-bottom 0.2s;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  line-height:1em;
   &:hover{
-    color:#333;
-    background:white;
+    border-bottom: 2px solid white;
   }
   i:hover{
     color:#333;
     background:white;
+    background:rgba(255,255,255,0.8);
   }
 }
 address{
-  color:white;
+  color:#ccc;
+  font-style: normal;
 }
 i{
   color:white;
   border-radius: 3px;
 }
+
 footer{
   background:#222;
   .wrapper{
     font-size:0;
     padding:48px;
+  }
+  a.email{
+    margin-bottom:1.4em;
   }
   section{
     font-size:16px;
@@ -133,16 +138,29 @@ footer{
     a{
       text-shadow:none;
       font-weight:lighter;
+      border-bottom:none;
+      border-radius: 2px;
+      transition: color 0.2s, background 0.2s;
+      padding-top:3px;
+      padding-bottom:3px;
+      &:hover{
+        color:#333;
+        border-bottom:none;
+        background: white;
+      }
     }
   }
   .service-link{
+    display: inline-block;
+    padding:0;
     i{
       font-size:2em;
-      padding:0.2em;
-    }
-    a:hover{
-      background:none;
-      color:none;
+      padding:4px;
+      display: inline-block;
+      &.twitter{
+        padding-left:2px;
+        padding-right:6px;
+      }
     }
   }
 }

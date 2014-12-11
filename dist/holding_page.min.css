@@ -72,23 +72,25 @@ strong {
 
 a {
   color: white;
+  display: inline-block;
   text-decoration: none;
   font-weight: normal;
   font-size: 1em;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  padding-top: 3px;
+  transition: border-bottom 0.2s;
   padding-bottom: 3px;
-  transition: background 0.2s, color 0.2s; }
+  border-bottom: 2px solid transparent;
+  line-height: 1em; }
   a:hover {
-    color: #333;
-    background: white; }
+    border-bottom: 2px solid white; }
   a i:hover {
     color: #333;
-    background: white; }
+    background: white;
+    background: rgba(255, 255, 255, 0.8); }
 
 address {
-  color: white; }
+  color: #ccc;
+  font-style: normal; }
 
 i {
   color: white;
@@ -99,6 +101,8 @@ footer {
   footer .wrapper {
     font-size: 0;
     padding: 48px; }
+  footer a.email {
+    margin-bottom: 1.4em; }
   footer section {
     font-size: 16px;
     width: 33%;
@@ -114,13 +118,26 @@ footer {
       font-size: 1em; }
     footer section a {
       text-shadow: none;
-      font-weight: lighter; }
-  footer .service-link i {
-    font-size: 2em;
-    padding: 0.2em; }
-  footer .service-link a:hover {
-    background: none;
-    color: none; }
+      font-weight: lighter;
+      border-bottom: none;
+      border-radius: 2px;
+      transition: color 0.2s, background 0.2s;
+      padding-top: 3px;
+      padding-bottom: 3px; }
+      footer section a:hover {
+        color: #333;
+        border-bottom: none;
+        background: white; }
+  footer .service-link {
+    display: inline-block;
+    padding: 0; }
+    footer .service-link i {
+      font-size: 2em;
+      padding: 4px;
+      display: inline-block; }
+      footer .service-link i.twitter {
+        padding-left: 2px;
+        padding-right: 6px; }
 
 @media (max-width: 752px) {
   footer section {

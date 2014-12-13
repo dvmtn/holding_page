@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    include partials/header.jade
+
+  body
+    article
+      .wrapper
+        header
+          img.logo(alt='Developer Mountain', src='images/logo.svg')
+          h1 Developer Mountain
+          //-h2 Excellent Full-stack web apps & prototypes
+        p We&rsquo;re a shiny new company specialising in <strong>Javascript</strong> and <strong>Ruby</strong>. We use our <strong>full stack</strong> and <strong>DevOps</strong> skills to build projects for <strong>agencies</strong> and <strong>developers</strong>.
+        p We&rsquo;re snowed under with work right now but we&rsquo;ll get a site together soon!
+        p We&rsquo;d love to chat to you, please
+          = ' '
+          a(href='mailto:hello@devmountain.co.uk') contact us
+          | !
+        p If you&rsquo;d like to see some of our work, checkout our projects on
+          = ' '
+          a(href='https://github.com/dvmtn') github
+          | .
+    script(src='holding_page.js')
+
+    include partials/footer.jade

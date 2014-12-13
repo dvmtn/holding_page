@@ -21,7 +21,7 @@ header {
   margin-bottom: 3em; }
 
 .wrapper {
-  max-width: 752px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 3em;
   text-align: justify; }
@@ -108,7 +108,7 @@ footer {
     width: 33%;
     display: inline-block;
     vertical-align: top;
-    padding: 0.5em; }
+    padding: 1.5em; }
     footer section:first-child {
       padding-left: 0; }
     footer section:last-child {

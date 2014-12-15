@@ -152,14 +152,18 @@ footer{
   }
   .service-link{
     display: inline-block;
+    vertical-align:top;
     padding:0;
     i{
       font-size:2em;
       padding:4px;
       display: inline-block;
       &.twitter{
-        padding-left:2px;
-        padding-right:6px;
+        padding-top:6px;
+        padding-bottom:6px;
+        padding-left:4px;
+        padding-right:8px;
+        font-size:1.8em;
       }
     }
   }

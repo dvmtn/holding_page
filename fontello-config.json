@@ -19,10 +19,10 @@
       "src": "mfglabs"
     },
     {
-      "uid": "eb2d71e114d99d85b2ae28ab70d981a6",
-      "css": "call",
-      "code": 59393,
-      "src": "zocial"
+      "uid": "8669af50382b53c48b9b803692828dd0",
+      "css": "github",
+      "code": 59401,
+      "src": "mfglabs"
     },
     {
       "uid": "cc4e62d1721c863fdc6944d2fd87521d",
@@ -43,34 +43,10 @@
       "src": "zocial"
     },
     {
-      "uid": "e47352cd4c5e069288b29a2c9ab9d305",
-      "css": "vimeo",
-      "code": 59399,
-      "src": "zocial"
-    },
-    {
       "uid": "a58032f4aafd0eec54803075f5b320d4",
       "css": "email",
       "code": 59394,
       "src": "zocial"
-    },
-    {
-      "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
-      "css": "facebook",
-      "code": 59407,
-      "src": "zocial"
-    },
-    {
-      "uid": "9bba5df43e4e9419975336161e1810c3",
-      "css": "github",
-      "code": 59406,
-      "src": "zocial"
-    },
-    {
-      "uid": "155970c9f52b23f31026bab7163caa63",
-      "css": "codepen",
-      "code": 59403,
-      "src": "brandico"
     }
   ]
 }

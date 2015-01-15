@@ -40,6 +40,10 @@ h1{
   font-size:3em;
   color:white;
 }
+h2{
+  font-size:2em;
+  color:white;
+}
 @media(max-width:519px){
   h1{
     font-size:5em;
@@ -181,3 +185,5 @@ footer{
     }
   }
 }
+
+@import 'expertise'

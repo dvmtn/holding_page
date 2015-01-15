@@ -1,0 +1,65 @@
+.expertise{
+  background: #333;
+
+  .specialism{
+    display: inline-block;
+    width: 33%;
+    padding: 2em;
+    border-radius: 3px;
+    text-align: center;
+    transition: background 0.2s, color 0.2s;
+    &:hover{
+      background-color: #444;
+    }
+
+    svg{
+      height: 150px;
+      stroke: white;
+      stroke-width: 5px;
+      margin-bottom:2em;
+      fill: none;
+    }
+
+    &#ruby{
+      &:hover svg{
+        fill: #d00;
+        #ruby-outline{
+          fill: #e33;
+        }
+      }
+    }
+
+    &#js{
+      &:hover{
+        svg{
+          fill: #fe0;
+          stroke: black;
+        }
+        #js-letter{
+          fill: #222;
+        }
+      }
+    }
+
+    &#mobile{
+      #mobile-screen{
+        fill: rgba(0,0,0,0);
+        transition: fill 1s ease;
+      }
+      &:hover{
+        #mobile-screen{
+          fill: #0ef;
+        }
+        #mobile-body{
+          fill: #222;
+          stroke: black;
+        }
+        #mobile-microphone, #mobile-speaker{
+          fill: #555;
+          stroke: #333;
+        }
+      }
+    }
+  }
+
+}

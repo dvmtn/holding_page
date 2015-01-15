@@ -37,6 +37,10 @@ h1 {
   font-size: 3em;
   color: white; }
 
+h2 {
+  font-size: 2em;
+  color: white; }
+
 @media (max-width: 519px) {
   h1 {
     font-size: 5em;
@@ -150,5 +154,42 @@ footer {
     padding: 1em; }
     footer section:first-child, footer section:last-child {
       padding: 1em; } }
+.expertise {
+  background: #333; }
+  .expertise .specialism {
+    display: inline-block;
+    width: 33%;
+    padding: 2em;
+    border-radius: 3px;
+    text-align: center;
+    transition: background 0.2s, color 0.2s; }
+    .expertise .specialism:hover {
+      background-color: #444; }
+    .expertise .specialism svg {
+      height: 150px;
+      stroke: white;
+      stroke-width: 5px;
+      margin-bottom: 2em;
+      fill: none; }
+    .expertise .specialism#ruby:hover svg {
+      fill: #d00; }
+      .expertise .specialism#ruby:hover svg #ruby-outline {
+        fill: #e33; }
+    .expertise .specialism#js:hover svg {
+      fill: #fe0;
+      stroke: black; }
+    .expertise .specialism#js:hover #js-letter {
+      fill: #222; }
+    .expertise .specialism#mobile #mobile-screen {
+      fill: transparent;
+      transition: fill 1s ease; }
+    .expertise .specialism#mobile:hover #mobile-screen {
+      fill: #0ef; }
+    .expertise .specialism#mobile:hover #mobile-body {
+      fill: #222;
+      stroke: black; }
+    .expertise .specialism#mobile:hover #mobile-microphone, .expertise .specialism#mobile:hover #mobile-speaker {
+      fill: #555;
+      stroke: #333; }
 
 /*# sourceMappingURL=holding_page.min.css.map */

@@ -14,7 +14,6 @@ html {
 }
 article{
   background:rgb(20, 104, 140);
-  border-bottom: 0.2em white solid;
 }
 header{
   text-align:center;
@@ -115,6 +114,7 @@ i{
 }
 
 footer{
+  border-top: 0.2em white solid;
   background:#222;
   .wrapper{
     font-size:0;

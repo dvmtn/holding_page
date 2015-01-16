@@ -13,8 +13,7 @@ html {
   box-sizing: inherit; }
 
 article {
-  background: #14688c;
-  border-bottom: 0.2em white solid; }
+  background: #14688c; }
 
 header {
   text-align: center;
@@ -101,6 +100,7 @@ i {
   border-radius: 3px; }
 
 footer {
+  border-top: 0.2em white solid;
   background: #222; }
   footer .wrapper {
     font-size: 0;
@@ -163,14 +163,13 @@ footer {
     border-radius: 3px;
     text-align: center;
     transition: background 0.2s, color 0.2s; }
-    .expertise .specialism:hover {
-      background-color: #444; }
     .expertise .specialism svg {
       height: 150px;
       stroke: white;
       stroke-width: 5px;
       margin-bottom: 2em;
-      fill: none; }
+      fill: transparent;
+      transition: fill 0.2s; }
     .expertise .specialism#ruby:hover svg {
       fill: #d00; }
       .expertise .specialism#ruby:hover svg #ruby-outline {
@@ -181,8 +180,7 @@ footer {
     .expertise .specialism#js:hover #js-letter {
       fill: #222; }
     .expertise .specialism#mobile #mobile-screen {
-      fill: transparent;
-      transition: fill 1s ease; }
+      transition: fill 0.5s ease; }
     .expertise .specialism#mobile:hover #mobile-screen {
       fill: #0ef; }
     .expertise .specialism#mobile:hover #mobile-body {

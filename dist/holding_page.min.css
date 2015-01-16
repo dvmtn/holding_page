@@ -178,25 +178,29 @@ footer {
       margin-bottom: 2em;
       fill: transparent;
       transition: fill 0.2s; }
-    .expertise .specialism#ruby:hover svg {
-      fill: #d00; }
-      .expertise .specialism#ruby:hover svg #ruby-outline {
-        fill: #e33; }
+    .expertise .specialism#ruby {
+      padding-left: 0; }
+      .expertise .specialism#ruby:hover svg {
+        fill: #d00; }
+        .expertise .specialism#ruby:hover svg #ruby-outline {
+          fill: #e33; }
     .expertise .specialism#js:hover svg {
       fill: #fe0;
       stroke: black; }
     .expertise .specialism#js:hover #js-letter {
       fill: #222; }
-    .expertise .specialism#mobile #mobile-screen {
-      transition: fill 0.5s ease; }
-    .expertise .specialism#mobile:hover #mobile-screen {
-      fill: #0ef; }
-    .expertise .specialism#mobile:hover #mobile-body {
-      fill: #222;
-      stroke: black; }
-    .expertise .specialism#mobile:hover #mobile-microphone, .expertise .specialism#mobile:hover #mobile-speaker {
-      fill: #555;
-      stroke: #333; }
+    .expertise .specialism#mobile {
+      padding-right: 0; }
+      .expertise .specialism#mobile #mobile-screen {
+        transition: fill 0.5s ease; }
+      .expertise .specialism#mobile:hover #mobile-screen {
+        fill: #0ef; }
+      .expertise .specialism#mobile:hover #mobile-body {
+        fill: #222;
+        stroke: black; }
+      .expertise .specialism#mobile:hover #mobile-microphone, .expertise .specialism#mobile:hover #mobile-speaker {
+        fill: #555;
+        stroke: #333; }
   @media (max-width: 885px) {
     .expertise .specialism {
       font-size: 0.8em; } }

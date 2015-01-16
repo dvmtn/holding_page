@@ -38,7 +38,8 @@ h1 {
 
 h2 {
   font-size: 2em;
-  color: white; }
+  color: white;
+  margin-bottom: 1.1em; }
 
 @media (max-width: 519px) {
   h1 {
@@ -46,10 +47,16 @@ h2 {
     line-height: 1.1em; } }
 @media (max-width: 446px) {
   h1 {
-    font-size: 4em; } }
+    font-size: 4em; }
+
+  h2 {
+    font-size: 1.75em; } }
 @media (max-width: 386px) {
   h1 {
-    font-size: 3em; } }
+    font-size: 3em; }
+
+  h2 {
+    font-size: 1.5em; } }
 h3 {
   color: white;
   font-size: 1.2em;
@@ -155,7 +162,8 @@ footer {
     footer section:first-child, footer section:last-child {
       padding: 1em; } }
 .expertise {
-  background: #333; }
+  background: #333;
+  box-sizing: border-box; }
   .expertise .specialism {
     display: inline-block;
     width: 33%;
@@ -189,5 +197,46 @@ footer {
     .expertise .specialism#mobile:hover #mobile-microphone, .expertise .specialism#mobile:hover #mobile-speaker {
       fill: #555;
       stroke: #333; }
+  @media (max-width: 885px) {
+    .expertise .specialism {
+      font-size: 0.8em; } }
+  @media (max-width: 780px) {
+    .expertise .specialism svg {
+      height: 80px;
+      margin-bottom: 1.2em; } }
+  @media (max-width: 730px) {
+    .expertise .specialism {
+      width: 100%;
+      vertical-align: top;
+      text-align: left;
+      height: 100px;
+      display: block;
+      padding: 0; }
+      .expertise .specialism .logo {
+        display: inline-block;
+        width: 100px;
+        margin-right: 2em;
+        line-height: 80px;
+        text-align: center;
+        padding: 0;
+        float: left;
+        height: 100%; }
+      .expertise .specialism p {
+        vertical-align: top; }
+      .expertise .specialism svg {
+        margin: 0; } }
+@media (max-width: 730px) and (max-width: 365px) {
+  .expertise .specialism {
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 3em; }
+    .expertise .specialism .logo {
+      width: 100%;
+      display: block;
+      line-height: normal; }
+    .expertise .specialism p {
+      width: 100%;
+      display: block; } }
 
 /*# sourceMappingURL=holding_page.min.css.map */

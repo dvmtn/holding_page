@@ -42,6 +42,7 @@ h1{
 h2{
   font-size:2em;
   color:white;
+  margin-bottom:1.1em;
 }
 @media(max-width:519px){
   h1{
@@ -53,10 +54,16 @@ h2{
   h1{
     font-size:4em;
   }
+  h2{
+    font-size: 1.75em;
+  }
 }
 @media(max-width:386px){
   h1{
     font-size:3em;
+  }
+  h2{
+    font-size:1.5em;
   }
 }
 h3{

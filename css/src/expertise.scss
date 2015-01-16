@@ -1,5 +1,6 @@
 .expertise{
   background: #333;
+  box-sizing: border-box;
 
   .specialism{
     display: inline-block;
@@ -59,4 +60,63 @@
     }
   }
 
+  @media(max-width: 885px){
+    .specialism{
+      font-size:0.8em;
+    }
+  }
+
+  @media(max-width: 780px){
+    .specialism{
+      svg{
+        height: 80px;
+        margin-bottom: 1.2em;
+      }
+    }
+  }
+
+  @media(max-width: 730px){
+    .specialism{
+      width: 100%;
+      vertical-align: top;
+      text-align:left;
+      height:100px;
+      display:block;
+      padding: 0;
+      .logo{
+        display:inline-block;
+        width:100px;
+        margin-right: 2em;
+        line-height: 80px;
+        text-align:center;
+        padding: 0;
+        float: left;
+        height: 100%;
+      }
+      p{
+        vertical-align: top;
+      }
+      svg{
+        margin: 0;
+      }
+    }
+
+    @media(max-width: 365px){
+      .specialism{
+        display: block;
+        text-align: center;
+        height:auto;
+        margin-bottom:3em;
+        .logo{
+          width: 100%;
+          display:block;
+          line-height:normal;
+        }
+        p{
+          width: 100%;
+          display:block;
+        }
+      }
+    }
+  }
 }

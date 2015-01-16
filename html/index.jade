@@ -5,7 +5,7 @@ html(manifest='manifest.appcache')
 
   body
     article
-      .wrapper
+      section.wrapper
         header
           img.logo(alt='Developer Mountain', src='images/logo.svg')
           h1 Developer Mountain
@@ -21,8 +21,8 @@ html(manifest='manifest.appcache')
           a(href='https://github.com/dvmtn') github
           | .
 
-    article
-      include partials/expertise.jade
+      section
+        include partials/expertise.jade
 
     script(src='holding_page.js')
 

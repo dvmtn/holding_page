@@ -113,6 +113,10 @@ i {
   color: white;
   border-radius: 3px; }
 
+li {
+  color: white;
+  margin-left: 1em; }
+
 footer {
   border-top: 0.2em white solid;
   background: #222;

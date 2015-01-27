@@ -18,14 +18,10 @@ html(manifest='manifest.appcache')
           | !
 
       include partials/expertise.jade
-      .wrapper
-        p If you&rsquo;d like to see some of our work, checkout our open-source projects on
-          = ' '
-          a(href='https://github.com/dvmtn') github
-          | .
-
-      include partials/why-us.jade
       include partials/testimonials.jade
+      include partials/portfolio.jade
+      include partials/why-us.jade
+      include partials/client-types.jade
 
     script(src='holding_page.js')
 

@@ -1,0 +1,35 @@
+.testimonial{
+  border-radius: 3px;
+  background: #f9f9f9;
+  border-bottom: 3px solid #ccc;
+  blockquote {
+    font-size:1.5em;
+    text-align: left;
+    quotes: "\201C""\201D""\2018""\2019";
+    line-height: 1.8em;
+    padding: 1em 2em;
+
+    &:before,&:after{
+      color: #ccc;
+      font-size: 3.5em;
+      line-height: 0;
+    }
+
+    &:before {
+      content: open-quote;
+      vertical-align: -0.5em;
+    }
+    &:after{
+      content: close-quote;
+      vertical-align: -0.5em;
+    }
+  }
+  footer{
+    font-style: italic;
+    font-size: 1.5em;
+    padding-right: 2em;
+    border-top: none;
+    background: #ccc;
+    text-align: right;
+  }
+}

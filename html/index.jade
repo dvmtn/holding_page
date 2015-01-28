@@ -5,7 +5,7 @@ html(manifest='manifest.appcache')
 
   body
     article
-      section.wrapper
+      section#intro.wrapper
         header
           img#logo(alt='Developer Mountain', src='images/logo.svg')
           h1 Developer Mountain
@@ -18,13 +18,7 @@ html(manifest='manifest.appcache')
 
       include partials/expertise.jade
       include partials/testimonials.jade
-
-      .wrapper
-        p If you&rsquo;d like to see some of our work, checkout our open-source projects on
-          = ' '
-          a(href='https://github.com/dvmtn') github
-          | .
-
+      include partials/portfolio.jade
 
     script(src='holding_page.js')
 

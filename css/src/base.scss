@@ -27,9 +27,12 @@ header{
   text-align:justify;
 }
 
-section#why-us{
-  background: #333;
+section#intro,
+section#portfolio
+{
+  padding-bottom: 2em;
 }
+
 @media(max-width:386px){
   section{
     text-align: left;

@@ -26,8 +26,9 @@ header {
   padding: 1em 1.5em;
   text-align: justify; }
 
-section#why-us {
-  background: #333; }
+section#intro,
+section#portfolio {
+  padding-bottom: 2em; }
 
 @media (max-width: 386px) {
   section {
@@ -177,7 +178,10 @@ footer {
     footer section:first-child, footer section:last-child {
       padding: 1em; } }
 section#expertise {
-  background: #333; }
+  background: #333;
+  padding-bottom: 1em;
+  border-top: #444 1px solid;
+  border-bottom: #222 1px solid; }
   section#expertise .specialism {
     display: inline-block;
     width: 33%;
@@ -282,8 +286,7 @@ section#expertise {
       right: 12px; }
   .testimonial footer {
     font-style: italic;
-    padding-right: 2em;
-    padding-top: 3px;
+    padding: 0.5em 1em;
     border-top: none;
     background: #CBEFFF;
     text-align: right; }

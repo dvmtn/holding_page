@@ -1,35 +1,53 @@
 .testimonial{
   border-radius: 3px;
-  background: #f9f9f9;
-  border-bottom: 3px solid #ccc;
+  background: #E7F8FF;
+  border-bottom: 3px solid #CBEFFF;
   blockquote {
     font-size:1.5em;
     text-align: left;
     quotes: "\201C""\201D""\2018""\2019";
-    line-height: 1.8em;
     padding: 1em 2em;
+    position: relative;
 
     &:before,&:after{
-      color: #ccc;
-      font-size: 3.5em;
+      color: #1F94D7;
+      font-size: 4em;
       line-height: 0;
+      position: absolute;
+      display: inline-block;
     }
 
     &:before {
       content: open-quote;
-      vertical-align: -0.5em;
+      top: 52px;
+      left: 12px;
     }
     &:after{
       content: close-quote;
-      vertical-align: -0.5em;
+      bottom: 12px;
+      right: 12px;
     }
   }
   footer{
     font-style: italic;
     font-size: 1.5em;
     padding-right: 2em;
+    padding-top: 3px;
     border-top: none;
-    background: #ccc;
+    background: #CBEFFF;
     text-align: right;
+  }
+}
+@media (max-width: 700px){
+  .testimonial{
+    blockquote{
+      padding: 1em;
+      &:before,&:after{
+        display: none;
+      }
+    }
+    footer{
+      padding-right: 1em;
+    }
   }
 }

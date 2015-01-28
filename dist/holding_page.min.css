@@ -262,7 +262,6 @@ section#expertise {
   background: #E7F8FF;
   border-bottom: 3px solid #CBEFFF; }
   .testimonial blockquote {
-    font-size: 1.5em;
     text-align: left;
     quotes: "“" "”" "‘" "’";
     padding: 1em 2em;
@@ -283,7 +282,6 @@ section#expertise {
       right: 12px; }
   .testimonial footer {
     font-style: italic;
-    font-size: 1.5em;
     padding-right: 2em;
     padding-top: 3px;
     border-top: none;

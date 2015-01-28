@@ -11,7 +11,6 @@ html(manifest='manifest.appcache')
           h1 Developer Mountain
 
         p Looking to outsource your development for web apps, mobile apps or other software projects? Or need extra support for your development team?
-
         p We can help.
           = ' '
           a(href='mailto:hello@devmountain.co.uk') Contact us
@@ -19,9 +18,13 @@ html(manifest='manifest.appcache')
 
       include partials/expertise.jade
       include partials/testimonials.jade
-      include partials/portfolio.jade
-      include partials/why-us.jade
-      include partials/client-types.jade
+
+      .wrapper
+        p If you&rsquo;d like to see some of our work, checkout our open-source projects on
+          = ' '
+          a(href='https://github.com/dvmtn') github
+          | .
+
 
     script(src='holding_page.js')
 

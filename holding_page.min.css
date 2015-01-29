@@ -1,13 +1,13 @@
 @charset "UTF-8";
 * {
   margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
-  line-height: 1.4em; }
+  padding: 0; }
 
 html {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 1.4em;
   box-sizing: border-box; }
 
 *, *:before, *:after {
@@ -18,48 +18,39 @@ article {
 
 header {
   text-align: center;
-  margin-bottom: 3em; }
+  margin-bottom: 1.5em; }
 
 .wrapper {
   max-width: 900px;
   margin: 0 auto;
-  padding: 3em;
+  padding: 1em 1.5em;
   text-align: justify; }
+
+section#intro,
+section#portfolio {
+  padding-bottom: 2em; }
 
 @media (max-width: 386px) {
   section {
     text-align: left; } }
-img.logo {
+img#logo {
   width: 100%;
-  max-width: 27em; }
+  max-width: 18em; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  line-height: 1.4em; }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   color: white; }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   margin-bottom: 0.5em; }
 
-@media (max-width: 519px) {
-  h1 {
-    font-size: 5em;
-    line-height: 1.1em; } }
-@media (max-width: 446px) {
-  h1 {
-    font-size: 4em; }
-
-  h2 {
-    font-size: 1.75em; } }
-@media (max-width: 386px) {
-  h1 {
-    font-size: 3em;
-    text-align: center; }
-
-  h2 {
-    font-size: 1.5em;
-    text-align: center; } }
 h3 {
   color: white;
   font-size: 1.2em;
@@ -68,19 +59,37 @@ h3 {
 h4 {
   color: white; }
 
+@media (max-width: 600px) {
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center; } }
+@media (max-width: 519px) {
+  h1 {
+    font-size: 1.75em;
+    line-height: 1.1em; } }
+@media (max-width: 446px) {
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 1.75em; } }
+@media (max-width: 386px) {
+  h1 {
+    font-size: 2.2em;
+    text-align: center; }
+
+  h2 {
+    font-size: 1.5em;
+    text-align: center; } }
 p {
   color: white;
-  font-size: 2em;
   margin-bottom: 1em; }
 
 p:last-child {
   margin-bottom: 0; }
 
-@media (max-width: 446px) {
-  p {
-    font-size: 1.5em; } }
 strong {
   font-size: 1em;
+  font-weight: lighter;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2); }
 
 a {
@@ -101,38 +110,40 @@ a {
     background: white;
     background: rgba(255, 255, 255, 0.8); }
 
-address {
-  color: #ccc;
-  font-style: normal; }
-
 i {
   color: white;
   border-radius: 3px; }
 
+li {
+  color: white;
+  margin-left: 1em; }
+
 footer {
   border-top: 0.2em white solid;
-  background: #222; }
-  footer .wrapper {
-    font-size: 0;
-    padding: 48px; }
+  background: #222;
+  line-height: 1em; }
   footer a.email {
     margin-bottom: 1.4em; }
   footer section {
-    font-size: 16px;
     width: 33%;
     display: inline-block;
     vertical-align: top;
-    padding: 1.5em; }
+    padding: 1em; }
     footer section:first-child {
       padding-left: 0; }
     footer section:last-child {
       padding-right: 0; }
     footer section p {
       color: #ccc;
-      font-size: 1em; }
+      font-size: 0.7em; }
+    footer section address {
+      color: #ccc;
+      font-style: normal;
+      font-size: 0.7em; }
     footer section a {
       text-shadow: none;
       font-weight: lighter;
+      font-size: 0.7em;
       border-bottom: none;
       border-radius: 2px;
       transition: color 0.2s, background 0.2s;
@@ -142,6 +153,8 @@ footer {
         color: #333;
         border-bottom: none;
         background: white; }
+  footer section#find-us a {
+    padding: 0.5em 0.3em; }
   footer .service-link {
     display: inline-block;
     vertical-align: top;
@@ -164,62 +177,64 @@ footer {
     padding: 1em; }
     footer section:first-child, footer section:last-child {
       padding: 1em; } }
-.expertise {
+section#expertise {
   background: #333;
-  box-sizing: border-box; }
-  .expertise .specialism {
+  padding-bottom: 1em;
+  border-top: #444 1px solid;
+  border-bottom: #222 1px solid; }
+  section#expertise .specialism {
     display: inline-block;
     width: 33%;
-    padding: 2em;
+    padding: 0.5em;
     border-radius: 3px;
     text-align: center;
     transition: background 0.2s, color 0.2s; }
-    .expertise .specialism svg {
+    section#expertise .specialism svg {
       height: 150px;
       stroke: white;
       stroke-width: 5px;
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       fill: transparent;
       transition: fill 0.2s; }
-    .expertise .specialism#ruby {
+    section#expertise .specialism#ruby {
       padding-left: 0; }
-      .expertise .specialism#ruby:hover svg {
+      section#expertise .specialism#ruby:hover svg {
         fill: #d00; }
-        .expertise .specialism#ruby:hover svg #ruby-outline {
+        section#expertise .specialism#ruby:hover svg #ruby-outline {
           fill: #e33; }
-    .expertise .specialism#js:hover svg {
+    section#expertise .specialism#js:hover svg {
       fill: #fe0;
       stroke: black; }
-    .expertise .specialism#js:hover #js-letter {
+    section#expertise .specialism#js:hover #js-letter {
       fill: #222; }
-    .expertise .specialism#mobile {
+    section#expertise .specialism#mobile {
       padding-right: 0; }
-      .expertise .specialism#mobile #mobile-screen {
+      section#expertise .specialism#mobile #mobile-screen {
         transition: fill 0.5s ease; }
-      .expertise .specialism#mobile:hover #mobile-screen {
+      section#expertise .specialism#mobile:hover #mobile-screen {
         fill: #0ef; }
-      .expertise .specialism#mobile:hover #mobile-body {
+      section#expertise .specialism#mobile:hover #mobile-body {
         fill: #222;
         stroke: black; }
-      .expertise .specialism#mobile:hover #mobile-microphone, .expertise .specialism#mobile:hover #mobile-speaker {
+      section#expertise .specialism#mobile:hover #mobile-microphone, section#expertise .specialism#mobile:hover #mobile-speaker {
         fill: #555;
         stroke: #333; }
   @media (max-width: 885px) {
-    .expertise .specialism {
+    section#expertise .specialism {
       font-size: 0.8em; } }
   @media (max-width: 780px) {
-    .expertise .specialism svg {
+    section#expertise .specialism svg {
       height: 80px;
       margin-bottom: 1.2em; } }
   @media (max-width: 730px) {
-    .expertise .specialism {
+    section#expertise .specialism {
       width: 100%;
       vertical-align: top;
       text-align: left;
       height: 100px;
       display: block;
       padding: 0; }
-      .expertise .specialism .logo {
+      section#expertise .specialism .logo {
         display: inline-block;
         width: 100px;
         margin-right: 2em;
@@ -228,21 +243,21 @@ footer {
         padding: 0;
         float: left;
         height: 100%; }
-      .expertise .specialism p {
+      section#expertise .specialism p {
         vertical-align: top; }
-      .expertise .specialism svg {
+      section#expertise .specialism svg {
         margin: 0; } }
 @media (max-width: 730px) and (max-width: 365px) {
-  .expertise .specialism {
+  section#expertise .specialism {
     display: block;
     text-align: center;
     height: auto;
     margin-bottom: 3em; }
-    .expertise .specialism .logo {
+    section#expertise .specialism .logo {
       width: 100%;
       display: block;
       line-height: normal; }
-    .expertise .specialism p {
+    section#expertise .specialism p {
       width: 100%;
       display: block; } }
 
@@ -251,7 +266,6 @@ footer {
   background: #E7F8FF;
   border-bottom: 3px solid #CBEFFF; }
   .testimonial blockquote {
-    font-size: 1.5em;
     text-align: left;
     quotes: "“" "”" "‘" "’";
     padding: 1em 2em;
@@ -272,9 +286,7 @@ footer {
       right: 12px; }
   .testimonial footer {
     font-style: italic;
-    font-size: 1.5em;
-    padding-right: 2em;
-    padding-top: 3px;
+    padding: 0.5em 1em;
     border-top: none;
     background: #CBEFFF;
     text-align: right; }

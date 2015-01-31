@@ -1,9 +1,60 @@
-<?xml version="1.0"?>
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 744 646">
-  <g class="mountain">
-    <path d="M 8 640 334 7 420 116 499 160 737 640 z" class="outline" fill="none" stroke="white" stroke-width="12" />
-    <path d="m 338 42 70 89 77 42 82 165 -46 -36 -33 30 -39 -39 -31 39 -41 -30 -33 30 -39 -21 -34 21 -37 -30 -50 37 z" fill="white" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 660">
+  <path id="logo_tri1"  class="triangle" fill="#99c3df" d="M337 11l-51.8 100.6 125.1-7.7z"/>
+  <path id="logo_tri1"  class="triangle" fill="#a0c7e4" d="M285.2 111.6l-45.8 89 73.4 26.8z"/>
+  <path id="logo_tri2"  class="triangle" fill="#91c0df" d="M285.2 111.6l27.6 115.8 98.6-122.1-2-2.5z"/>
+  <path id="logo_tri3"  class="triangle" fill="#81b7dc" d="M411.4 105.3l-98.6 122.1 123.4 11.2L423 120z"/>
+  <path id="logo_tri4"  class="triangle" fill="#74b1d9" d="M423 120l13.2 118.6 62.4-21.8-53.6-84.5z"/>
+  <path id="logo_tri5"  class="triangle" fill="#77b2d7" d="M423 120l75.7 97 3.3-53z"/>
+  <path id="logo_tri6"  class="triangle" fill="#76a9d2" d="M502 164l-3.3 53 21.1-17.1z"/>
+  <path id="logo_tri7"  class="triangle" fill="#71a0cf" d="M519.8 199.9l-21.2 17 27.8-3.7z"/>
+  <path id="logo_tri8"  class="triangle" fill="#96c3e5" d="M239.4 200.5l-50.9 98.9 124.3-72z"/>
+  <path id="logo_tri9"  class="triangle" fill="#7db7e0" d="M312.8 227.4l-124.3 71.9-3.3 6.4 154.7 17.9z"/>
+  <path id="logo_tri10" class="triangle" fill="#6dafdb" d="M312.8 227.4l27.1 96.2 71.4-24z"/>
+  <path id="logo_tri11" class="triangle" fill="#6eafda" d="M312.8 227.4l98.5 72.2 24.9-61z"/>
+  <path id="logo_tri12" class="triangle" fill="#57a4d5" d="M436.2 238.6l-24.9 61 127.2-12.8z"/>
+  <path id="logo_tri13" class="triangle" fill="#5ca4d4" d="M436.2 238.6l102.3 48.2-39.9-70z"/>
+  <path id="logo_tri14" class="triangle" fill="#619dd0" d="M498.6 216.8l34.1 74.7 23.2-18.7-29.5-59.6z"/>
+  <path id="logo_tri15" class="triangle" fill="#5993cb" d="M555.9 272.8l-17.7 14 24.9.4z"/>
+  <path id="logo_tri16" class="triangle" fill="#76b0de" d="M141.3 391.1L128.4 416l49 10.7z"/>
+  <path id="logo_tri17" class="triangle" fill="#82b9e3" d="M141.3 391.1l36.1 35.6.6-106.9z"/>
+  <path id="logo_tri18" class="triangle" fill="#68aadb" d="M184.4 307.3l-6.4 12.5-.6 106.9 118.9 10.5z"/>
+  <path id="logo_tri19" class="triangle" fill="#68acdc" d="M184.4 307.4l111.9 129.8 43.6-113.6-154.7-18z"/>
+  <path id="logo_tri20" class="triangle" fill="#4b9cd3" d="M339.9 323.6l-43.6 113.6 115-25.6z"/>
+  <path id="logo_tri21" class="triangle" fill="#53a1d6" d="M339.9 323.6l71.4 88v-112z"/>
+  <path id="logo_tri21" class="triangle" fill="#499dd4" d="M411.3 299.6v112l127.2-124.8z"/>
+  <path id="logo_tri22" class="triangle" fill="#338ccb" d="M538.7 286.6l-127.4 125 167 34.6z"/>
+  <path id="logo_tri23" class="triangle" fill="#418bca" d="M538.5 286.8l39.8 159.6 37.5-53-52.7-106.2z"/>
+  <path id="logo_tri24" class="triangle" fill="#2c79c0" d="M615.7 393.4l-37.4 52.8 74.6 22.2z"/>
+  <path id="logo_tri25" class="triangle" fill="#4b94cf" d="M104.4 462.6l-42.91 83.3 137.21 14.7z"/>
+  <path id="logo_tri26" class="triangle" fill="#539bd3" d="M128.4 416l-24 46.6 95.7 99.5-22.7-135.4z"/>
+  <path id="logo_tri27" class="triangle" fill="#4997d0" d="M177.4 426.7l21.1 133.8 97.8-123.3z"/>
+  <path id="logo_tri28" class="triangle" fill="#348ac9" d="M296.3 437.2l-98.1 123.4 139.4-42.9z"/>
+  <path id="logo_tri29" class="triangle" fill="#358dcb" d="M296.3 437.2l41.3 80.5 73.7-106.1z"/>
+  <path id="logo_tri30" class="triangle" fill="#2181c5" d="M411.3 411.6l-73.7 106.1 129.5-12.8z"/>
+  <path id="logo_tri31" class="triangle" fill="#1a7ec3" d="M411.3 411.6l55.8 93.4 111.2-58.8z"/>
+  <path id="logo_tri32" class="triangle" fill="#0f71bc" d="M578.4 446.1l-111.8 58.8 118.5.7z"/>
+  <path id="logo_tri33" class="triangle" fill="#146cba" d="M578.3 446.1l6.8 59.5 67.8-37.2z"/>
+  <path id="logo_tri34" class="triangle" fill="#0562b3" d="M656.2 475l-3.3-6.7-67.8 37.3 28.6 70z"/>
+  <path id="logo_tri35" class="triangle" fill="#0159af" d="M656.2 475l-42.5 100.6 81.3-22.4z"/>
+  <path id="logo_tri36" class="triangle" fill="#5889c9" d="M35.55 596.3l-9.94 19.3 32.25-.2z"/>
+  <path id="logo_tri37" class="triangle" fill="#528ccb" d="M35.52 596.4l22.45 19.2 3.53-69.7z"/>
+  <path id="logo_tri38" class="triangle" fill="#4988c8" d="M61.5 545.9l-3.64 69.5 140.74-54.9z"/>
+  <path id="logo_tri39" class="triangle" fill="#447cc2" d="M198.5 560.5L57.77 615.4 101.8 644h74.3z"/>
+  <path id="logo_tri40" class="triangle" fill="#3870bc" d="M198.5 560.4L176.1 644h87z"/>
+  <path id="logo_tri41" class="triangle" fill="#2b77bf" d="M198.4 560.5l64.7 83.5h46.6l27.9-126.3z"/>
+  <path id="logo_tri42" class="triangle" fill="#1d6cb9" d="M337.6 517.7L309 644h46.3l47-37.6z"/>
+  <path id="logo_tri43" class="triangle" fill="#1073bd" d="M337.6 517.7l64.8 88.9 64.7-101.8z"/>
+  <path id="logo_tri44" class="triangle" fill="#0061b3" d="M466.9 504.8l-64.6 101.6 181 37.6z"/>
+  <path id="logo_tri45" class="triangle" fill="#005bb0" d="M466.9 504.8L583.3 644l30.4-68.4z"/>
+  <path id="logo_tri46" class="triangle" fill="#0165b6" d="M466.8 504.8l146.9 70.8-28.6-70z"/>
+  <path id="logo_tri47" class="triangle" fill="#0049a6" d="M613.7 575.6L583.3 644h87.4z"/>
+  <path id="logo_tri48" class="triangle" fill="#004aa7" d="M613.7 575.6l52.4 68.4 43.5-61.3-14.6-29.5z"/>
+  <path id="logo_tri49" class="triangle" fill="#003a9e" d="M709.6 582.6L666.1 644H740z"/>
+  <path id="logo_tri50" class="triangle" fill="#5a7dc2" d="M25.63 615.6L11 644l46.66-28.6z"/>
+  <path id="logo_tri51" class="triangle" fill="#5371bc" d="M57.71 615.3L11 644h47.86z"/>
+  <path id="logo_tri52" class="triangle" fill="#4a71bc" d="M57.64 615.3l1.19 28.7h43.07z"/>
+  <path id="logo_tri53" class="triangle" fill="#1354ac" d="M355.3 644h59.4l-12.3-37.8z"/>
+  <path id="logo_tri54" class="triangle" fill="#004da8" d="M402.2 606.3l12.5 37.7h168.6z"/>
+  <path id="logo_snow"  fill="#fff" d="M342.2 58.76l64 81.34 70.4 38.4 74.9 150.8-42-32.9-30.2 27.4-35.6-35.6-28.4 35.6-37.4-27.4-30.2 27.4-35.6-19.2-31.1 19.2-33.8-27.4-45.7 33.8z"/>
+  <path id="logo_outline" fill="none" d="M 8 640 334 7 420 116 499 160 737 640 z" stroke="white" stroke-width="12"/>
 </svg>

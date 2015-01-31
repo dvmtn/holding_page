@@ -7,7 +7,9 @@ html(manifest='manifest.appcache')
     article
       section#intro.wrapper
         header
-          img#logo(alt='Developer Mountain', src='images/logo.svg')
+          //-img#logo(alt='Developer Mountain', src='images/logo.svg')
+          #logo
+            include ../images/logo.svg
           h1 Developer Mountain
 
         p Looking to outsource your development for web apps, mobile apps or other software projects? Or need extra support for your development team?

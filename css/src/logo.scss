@@ -4,6 +4,33 @@
     transition: opacity 0.2s;
   }
 
+  $lowest_opacity:0.7;
+
+  @keyframes shimmer {
+    to { opacity: $lowest_opacity; }
+    from   { opacity: 1; }
+  }
+
+  @-moz-keyframes shimmer {
+    to { opacity: $lowest_opacity; }
+    from   { opacity: 1; }
+  }
+
+  @-webkit-keyframes shimmer {
+    to { opacity: $lowest_opacity; }
+    from   { opacity: 1; }
+  }
+
+  @-ms-keyframes shimmer {
+    to { opacity: $lowest_opacity; }
+    from   { opacity: 1; }
+  }
+
+  @-o-keyframes shimmer {
+    to { opacity: $lowest_opacity; }
+    from   { opacity: 1; }
+  }
+
   @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -29,13 +56,23 @@
     to   { opacity: 1; }
   }
 
-  @for $i from 1 through 54 {
-	.triangle:nth-child(#{$i}) {
-    -webkit-animation: fadein 3s #{3+$i/10}s ease alternate infinite;
-    -moz-animation:    fadein 3s #{3+$i/10}s ease alternate infinite;
-    -ms-animation:     fadein 3s #{3+$i/10}s ease alternate infinite;
-    -o-animation:      fadein 3s #{3+$i/10}s ease alternate infinite;
-    animation:         fadein 3s #{3+$i/10}s ease alternate infinite;
-	}
-}
+  @for $i from 1 through 60 {
+    .triangle:nth-child(#{$i}) {
+      -webkit-animation:
+        fadein  3s           #{$i/10}s   1        ease,
+        shimmer #{4 + $i%4}s #{3+$i/10}s infinite ease alternate;
+      -moz-animation:
+        fadein  3s           #{$i/10}s   1        ease,
+        shimmer #{4 + $i%4}s #{3+$i/10}s infinite ease alternate;
+      -ms-animation:
+        fadein  3s           #{$i/10}s   1        ease,
+        shimmer #{4 + $i%4}s #{3+$i/10}s infinite ease alternate;
+      -o-animation:
+        fadein  3s           #{$i/10}s   1        ease,
+        shimmer #{4 + $i%4}s #{3+$i/10}s infinite ease alternate;
+      animation:
+        fadein  3s           #{$i/10}s   1        ease,
+        shimmer #{4 + $i%4}s #{3+$i/10}s infinite ease alternate;
+    }
+  }
 }

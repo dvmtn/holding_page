@@ -32,7 +32,6 @@
     to   { opacity: 1; }
   }
 
-
   @keyframes shimmer {
     to { opacity: $lowest_opacity; }
     from   { opacity: 1; }
@@ -60,21 +59,27 @@
 
   @for $i from 1 through 60 {
     .triangle:nth-child(#{$i}) {
+
+      $fade_start: $i/10;
+      $shimmer_start: $fade_time + $fade_start;
+      $shimmer_times: infinite;
+      $shimmer_time: 3 + $i%4;
+
       -webkit-animation:
-        fadein  #{$fade_time}s #{$i/10}s              1        ease,
-        shimmer #{4 + $i%4}s   #{$fade_time + $i/10}s infinite ease alternate;
+        fadein  #{$fade_time}s    #{$fade_start}s    1,
+        shimmer #{$shimmer_time}s #{$shimmer_start}s $shimmer_times linear alternate;
       -moz-animation:
-        fadein  #{$fade_time}s #{$i/10}s              1        ease,
-        shimmer #{4 + $i%4}s   #{$fade_time + $i/10}s infinite ease alternate;
+        fadein  #{$fade_time}s    #{$fade_start}s    1,
+        shimmer #{$shimmer_time}s #{$shimmer_start}s $shimmer_times linear alternate;
       -ms-animation:
-        fadein  #{$fade_time}s #{$i/10}s              1        ease,
-        shimmer #{4 + $i%4}s   #{$fade_time + $i/10}s infinite ease alternate;
+        fadein  #{$fade_time}s    #{$fade_start}s    1,
+        shimmer #{$shimmer_time}s #{$shimmer_start}s $shimmer_times linear alternate;
       -o-animation:
-        fadein  #{$fade_time}s #{$i/10}s              1        ease,
-        shimmer #{4 + $i%4}s   #{$fade_time + $i/10}s infinite ease alternate;
+        fadein  #{$fade_time}s    #{$fade_start}s    1,
+        shimmer #{$shimmer_time}s #{$shimmer_start}s $shimmer_times linear alternate;
       animation:
-        fadein  #{$fade_time}s #{$i/10}s              1        ease,
-        shimmer #{4 + $i%4}s   #{$fade_time + $i/10}s infinite ease alternate;
+        fadein  #{$fade_time}s    #{$fade_start}s    1,
+        shimmer #{$shimmer_time}s #{$shimmer_start}s $shimmer_times linear alternate;
     }
   }
 }

@@ -1,4 +1,5 @@
 /node_modules
+/dist
 .grunt
 _SpecRunner.html
 .sass-cache/

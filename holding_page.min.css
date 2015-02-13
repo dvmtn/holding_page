@@ -25,6 +25,9 @@ header {
   padding: 1em 1.5em;
   text-align: justify; }
 
+@media (max-width: 450px) {
+  .wrapper {
+    text-align: center; } }
 section#intro,
 section#portfolio {
   padding-bottom: 2em; }
@@ -110,6 +113,9 @@ a {
     background: white;
     background: rgba(255, 255, 255, 0.8); }
 
+span.contact_us {
+  display: inline-block; }
+
 i {
   color: white;
   border-radius: 3px; }
@@ -174,9 +180,9 @@ footer {
   footer section {
     display: block;
     width: auto;
-    padding: 1em; }
+    padding: 0.5em 0.3em; }
     footer section:first-child, footer section:last-child {
-      padding: 1em; } }
+      padding: 1em auto; } }
 @keyframes fadein {
   from {
     opacity: 0; }

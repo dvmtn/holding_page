@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -186,73 +187,53 @@ footer {
 @keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
-
 @-moz-keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
-
 @-webkit-keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
-
 @-ms-keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
-
 @-o-keyframes fadein {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
-
 @keyframes shimmer {
   to {
     opacity: 0.7; }
-
   from {
     opacity: 1; } }
-
 @-moz-keyframes shimmer {
   to {
     opacity: 0.7; }
-
   from {
     opacity: 1; } }
-
 @-webkit-keyframes shimmer {
   to {
     opacity: 0.7; }
-
   from {
     opacity: 1; } }
-
 @-ms-keyframes shimmer {
   to {
     opacity: 0.7; }
-
   from {
     opacity: 1; } }
-
 @-o-keyframes shimmer {
   to {
     opacity: 0.7; }
-
   from {
     opacity: 1; } }
-
 #logo svg .triangle {
   opacity: 0;
   transition: opacity 0.2s; }
@@ -634,7 +615,7 @@ section#expertise {
       stroke: white;
       stroke-width: 5px;
       margin-bottom: 1em;
-      fill: rgba(0, 0, 0, 0);
+      fill: transparent;
       transition: fill 0.2s; }
     section#expertise .specialism#ruby {
       padding-left: 0; }
@@ -687,19 +668,19 @@ section#expertise {
         vertical-align: top; }
       section#expertise .specialism svg {
         margin: 0; } }
-  @media (max-width: 730px) and (max-width: 365px) {
-    section#expertise .specialism {
+@media (max-width: 730px) and (max-width: 365px) {
+  section#expertise .specialism {
+    display: block;
+    text-align: center;
+    height: auto;
+    margin-bottom: 3em; }
+    section#expertise .specialism .logo {
+      width: 100%;
       display: block;
-      text-align: center;
-      height: auto;
-      margin-bottom: 3em; }
-      section#expertise .specialism .logo {
-        width: 100%;
-        display: block;
-        line-height: normal; }
-      section#expertise .specialism p {
-        width: 100%;
-        display: block; } }
+      line-height: normal; }
+    section#expertise .specialism p {
+      width: 100%;
+      display: block; } }
 
 .testimonial {
   border-radius: 3px;
@@ -707,7 +688,7 @@ section#expertise {
   border-bottom: 3px solid #CBEFFF; }
   .testimonial blockquote {
     text-align: left;
-    quotes: "\201C" "\201D" "\2018" "\2019";
+    quotes: "“" "”" "‘" "’";
     padding: 1em 2em;
     position: relative; }
     .testimonial blockquote:before, .testimonial blockquote:after {
@@ -738,3 +719,5 @@ section#expertise {
       display: none; }
   .testimonial footer {
     padding-right: 1em; } }
+
+/*# sourceMappingURL=holding_page.min.css.map */

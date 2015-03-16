@@ -599,7 +599,8 @@ footer {
   animation: fadein 3s 6s 1, shimmer 3s 9s infinite linear alternate; }
 
 section#expertise {
-  background: #333;
+  background-color: #333;
+  background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.7)), url(images/footer_lodyas.png);
   padding-bottom: 1em;
   border-top: #444 1px solid;
   border-bottom: #222 1px solid; }
@@ -684,7 +685,7 @@ section#expertise {
 
 .testimonial {
   border-radius: 3px;
-  background: #E7F8FF;
+  background-color: #E7F8FF;
   border-bottom: 3px solid #CBEFFF; }
   .testimonial blockquote {
     text-align: left;

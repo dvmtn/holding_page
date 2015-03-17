@@ -1,397 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 750 660"
-   id="svg3091"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   width="750px"
-   height="660px"
-   sodipodi:docname="logo.svg">
-  <metadata
-     id="metadata3157">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs3155" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1109"
-     inkscape:window-height="761"
-     id="namedview3153"
-     showgrid="false"
-     inkscape:snap-page="false"
-     inkscape:zoom="0.3576"
-     inkscape:cx="375"
-     inkscape:cy="330"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3091" />
-  <path
-     id="logo_tri1"
-     class="triangle"
-     d="m 340.5,16.51 -51.3,99.69 124,-7.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#99c3df" />
-  <path
-     id="path3094"
-     class="triangle"
-     d="m 289.2,116.2 -45.4,88.3 72.7,26.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#a0c7e4" />
-  <path
-     id="logo_tri2"
-     class="triangle"
-     d="m 289.2,116.2 27.3,114.8 97.8,-121 -2,-2.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#91c0df" />
-  <path
-     id="logo_tri3"
-     class="triangle"
-     d="M 414.3,110 316.5,231 438.9,242.1 425.8,124.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#81b7dc" />
-  <path
-     id="logo_tri4"
-     class="triangle"
-     d="m 425.8,124.6 13.1,117.5 61.8,-21.6 -53.1,-83.7 z"
-     inkscape:connector-curvature="0"
-     style="fill:#74b1d9" />
-  <path
-     id="logo_tri5"
-     class="triangle"
-     d="m 425.8,124.6 75,96.1 3.3,-52.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#77b2d7" />
-  <path
-     id="logo_tri6"
-     class="triangle"
-     d="m 504.1,168.2 -3.3,52.5 20.9,-16.9 z"
-     inkscape:connector-curvature="0"
-     style="fill:#76a9d2" />
-  <path
-     id="logo_tri7"
-     class="triangle"
-     d="m 521.7,203.8 -21,16.8 27.6,-3.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#71a0cf" />
-  <path
-     id="logo_tri8"
-     class="triangle"
-     d="m 243.8,204.4 -50.5,98 123.2,-71.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#96c3e5" />
-  <path
-     id="logo_tri9"
-     class="triangle"
-     d="m 316.5,231 -123.2,71.3 -3.3,6.4 153.4,17.7 z"
-     inkscape:connector-curvature="0"
-     style="fill:#7db7e0" />
-  <path
-     id="logo_tri10"
-     class="triangle"
-     d="m 316.5,231 26.9,95.4 70.8,-23.8 z"
-     inkscape:connector-curvature="0"
-     style="fill:#6dafdb" />
-  <path
-     id="logo_tri11"
-     class="triangle"
-     d="m 316.5,231 97.7,71.6 24.7,-60.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#6eafda" />
-  <path
-     id="logo_tri12"
-     class="triangle"
-     d="m 438.9,242.1 -24.7,60.5 126.1,-12.7 z"
-     inkscape:connector-curvature="0"
-     style="fill:#57a4d5" />
-  <path
-     id="logo_tri13"
-     class="triangle"
-     d="m 438.9,242.1 101.4,47.8 -39.6,-69.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#5ca4d4" />
-  <path
-     id="logo_tri14"
-     class="triangle"
-     d="m 500.7,220.5 33.8,74.1 23,-18.6 -29.2,-59 z"
-     inkscape:connector-curvature="0"
-     style="fill:#619dd0" />
-  <path
-     id="logo_tri15"
-     class="triangle"
-     d="m 557.5,276 -17.5,13.9 24.7,0.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#5993cb" />
-  <path
-     id="logo_tri16"
-     class="triangle"
-     d="m 146.5,393.3 -12.8,24.7 48.6,10.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#76b0de" />
-  <path
-     id="logo_tri17"
-     class="triangle"
-     d="m 146.5,393.3 35.8,35.3 0.6,-106 z"
-     inkscape:connector-curvature="0"
-     style="fill:#82b9e3" />
-  <path
-     id="logo_tri18"
-     class="triangle"
-     d="m 189.2,310.2 -6.3,12.4 -0.6,106 117.9,10.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#68aadb" />
-  <path
-     id="logo_tri19"
-     class="triangle"
-     d="M 189.2,310.3 300.2,439 343.4,326.4 190,308.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#68acdc" />
-  <path
-     id="logo_tri20"
-     class="triangle"
-     d="M 343.4,326.4 300.2,439 414.2,413.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#4b9cd3" />
-  <path
-     id="logo_tri21"
-     class="triangle"
-     d="m 343.4,326.4 70.8,87.2 v -111 z"
-     inkscape:connector-curvature="0"
-     style="fill:#53a1d6" />
-  <path
-     id="path3116"
-     class="triangle"
-     d="m 414.2,302.6 v 111 L 540.3,289.9 z"
-     inkscape:connector-curvature="0"
-     style="fill:#499dd4" />
-  <path
-     id="logo_tri22"
-     class="triangle"
-     d="M 540.5,289.7 414.2,413.6 579.7,447.9 z"
-     inkscape:connector-curvature="0"
-     style="fill:#338ccb" />
-  <path
-     id="logo_tri23"
-     class="triangle"
-     d="m 540.3,289.9 39.4,158.2 37.2,-52.5 -52.2,-105.3 z"
-     inkscape:connector-curvature="0"
-     style="fill:#418bca" />
-  <path
-     id="logo_tri24"
-     class="triangle"
-     d="m 616.8,395.6 -37.1,52.3 74,22 z"
-     inkscape:connector-curvature="0"
-     style="fill:#2c79c0" />
-  <path
-     id="logo_tri25"
-     class="triangle"
-     d="m 109.9,464.2 -42.5,82.6 136,14.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#4b94cf" />
-  <path
-     id="logo_tri26"
-     class="triangle"
-     d="m 133.7,418 -23.8,46.2 94.9,98.6 -22.5,-134.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#539bd3" />
-  <path
-     id="logo_tri27"
-     class="triangle"
-     d="m 182.3,428.6 20.9,132.6 97,-122.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#4997d0" />
-  <path
-     id="logo_tri28"
-     class="triangle"
-     d="M 300.2,439 202.9,561.3 341.1,518.8 z"
-     inkscape:connector-curvature="0"
-     style="fill:#348ac9" />
-  <path
-     id="logo_tri29"
-     class="triangle"
-     d="m 300.2,439 40.9,79.8 73.1,-105.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#358dcb" />
-  <path
-     id="logo_tri30"
-     class="triangle"
-     d="M 414.2,413.6 341.1,518.8 469.5,506.1 z"
-     inkscape:connector-curvature="0"
-     style="fill:#2181c5" />
-  <path
-     id="logo_tri31"
-     class="triangle"
-     d="m 414.2,413.6 55.3,92.6 110.2,-58.3 z"
-     inkscape:connector-curvature="0"
-     style="fill:#1a7ec3" />
-  <path
-     id="logo_tri32"
-     class="triangle"
-     d="M 579.8,447.8 469,506.1 586.5,506.8 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0f71bc" />
-  <path
-     id="logo_tri33"
-     class="triangle"
-     d="m 579.7,447.8 6.8,59 67.2,-36.9 z"
-     inkscape:connector-curvature="0"
-     style="fill:#146cba" />
-  <path
-     id="logo_tri34"
-     class="triangle"
-     d="m 657,476.5 -3.3,-6.7 -67.2,37 28.3,69.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0562b3" />
-  <path
-     id="logo_tri35"
-     class="triangle"
-     d="M 657,476.5 614.8,576.2 695.4,554 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0159af" />
-  <path
-     id="logo_tri36"
-     class="triangle"
-     d="m 41.68,596.7 -9.85,19.2 31.97,-0.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#5889c9" />
-  <path
-     id="logo_tri37"
-     class="triangle"
-     d="m 41.66,596.8 22.25,19.1 3.5,-69.1 z"
-     inkscape:connector-curvature="0"
-     style="fill:#528ccb" />
-  <path
-     id="logo_tri38"
-     class="triangle"
-     d="M 67.41,546.8 63.8,615.7 203.3,561.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#4988c8" />
-  <path
-     id="logo_tri39"
-     class="triangle"
-     d="M 203.2,561.2 63.71,615.7 107.4,644 H 181 z"
-     inkscape:connector-curvature="0"
-     style="fill:#447cc2" />
-  <path
-     id="logo_tri40"
-     class="triangle"
-     d="M 203.2,561.1 181,644 h 86.3 z"
-     inkscape:connector-curvature="0"
-     style="fill:#3870bc" />
-  <path
-     id="logo_tri41"
-     class="triangle"
-     d="m 203.1,561.2 64.2,82.8 h 46.2 l 27.6,-125.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#2b77bf" />
-  <path
-     id="logo_tri42"
-     class="triangle"
-     d="M 341.1,518.8 312.8,644 h 45.9 l 46.6,-37.3 z"
-     inkscape:connector-curvature="0"
-     style="fill:#1d6cb9" />
-  <path
-     id="logo_tri43"
-     class="triangle"
-     d="M 341.1,518.8 405.4,606.9 469.5,506 z"
-     inkscape:connector-curvature="0"
-     style="fill:#1073bd" />
-  <path
-     id="logo_tri44"
-     class="triangle"
-     d="m 469.3,506 -64,100.7 179.4,37.3 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0061b3" />
-  <path
-     id="logo_tri45"
-     class="triangle"
-     d="m 469.3,506 115.4,138 30.1,-67.8 z"
-     inkscape:connector-curvature="0"
-     style="fill:#005bb0" />
-  <path
-     id="logo_tri46"
-     class="triangle"
-     d="m 469.2,506 145.6,70.2 -28.3,-69.4 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0165b6" />
-  <path
-     id="logo_tri47"
-     class="triangle"
-     d="M 614.8,576.2 584.7,644 h 86.6 z"
-     inkscape:connector-curvature="0"
-     style="fill:#0049a6" />
-  <path
-     id="logo_tri48"
-     class="triangle"
-     d="m 614.8,576.2 52,67.8 43.1,-60.8 -14.5,-29.2 z"
-     inkscape:connector-curvature="0"
-     style="fill:#004aa7" />
-  <path
-     id="logo_tri49"
-     class="triangle"
-     d="M 709.9,583.1 666.8,644 H 740 z"
-     inkscape:connector-curvature="0"
-     style="fill:#003a9e" />
-  <path
-     id="logo_tri50"
-     class="triangle"
-     d="M 31.85,615.9 17.35,644 63.6,615.7 z"
-     inkscape:connector-curvature="0"
-     style="fill:#5a7dc2" />
-  <path
-     id="logo_tri51"
-     class="triangle"
-     d="M 63.65,615.6 17.35,644 h 47.44 z"
-     inkscape:connector-curvature="0"
-     style="fill:#5371bc" />
-  <path
-     id="logo_tri52"
-     class="triangle"
-     d="M 63.58,615.6 64.76,644 H 107.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#4a71bc" />
-  <path
-     id="logo_tri53"
-     class="triangle"
-     d="m 358.7,644 h 58.8 l -12.1,-37.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#1354ac" />
-  <path
-     id="logo_tri54"
-     class="triangle"
-     d="M 405.2,606.6 417.5,644 H 584.7 z"
-     inkscape:connector-curvature="0"
-     style="fill:#004da8" />
-  <path
-     id="logo_snow"
-     d="m 343.7,63.85 63.4,80.65 69.8,38.1 74.3,149.4 -41.7,-32.6 -29.9,27.2 -35.3,-35.3 -28.1,35.3 -37.1,-27.2 -30,27.2 -35.2,-19 -30.9,19 -33.5,-27.2 -45.3,33.5 z"
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff" />
-  <path
-     id="logo_outline"
-     d="M 14.37,640.1 337.5,12.54 l 85.3,108.06 78.3,43.6 236,475.9 z"
-     inkscape:connector-curvature="0"
-     style="fill:none;stroke:#ffffff;stroke-width:11.8959" />
+<svg xmlns="http://www.w3.org/2000/svg" width="750px" height="660px" viewBox="0 0 750 660">
+  <path id="logo_tri1"  fill="#99c3df" d="M340.5 16.51l-51.3 99.69 124-7.6z" class="triangle"/>
+  <path id="logo_tri2"  fill="#a0c7e4" d="M289.2 116.2l-45.4 88.3 72.7 26.5z" class="triangle"/>
+  <path id="logo_tri3"  fill="#91c0df" d="M289.2 116.2L316.5 231l97.8-121-2-2.5z" class="triangle"/>
+  <path id="logo_tri4"  fill="#81b7dc" d="M414.3 110l-97.8 121 122.4 11.1-13.1-117.5z" class="triangle"/>
+  <path id="logo_tri5"  fill="#74b1d9" d="M425.8 124.6l13.1 117.5 61.8-21.6-53.1-83.7z" class="triangle"/>
+  <path id="logo_tri6"  fill="#77b2d7" d="M425.8 124.6l75 96.1 3.3-52.5z" class="triangle"/>
+  <path id="logo_tri7"  fill="#76a9d2" d="M504.1 168.2l-3.3 52.5 20.9-16.9z" class="triangle"/>
+  <path id="logo_tri8"  fill="#71a0cf" d="M521.7 203.8l-21 16.8 27.6-3.6z" class="triangle"/>
+  <path id="logo_tri9"  fill="#96c3e5" d="M243.8 204.4l-50.5 98L316.5 231z" class="triangle"/>
+  <path id="logo_tri10" fill="#7db7e0" d="M316.5 231l-123.2 71.3-3.3 6.4 153.4 17.7z" class="triangle"/>
+  <path id="logo_tri11" fill="#6dafdb" d="M316.5 231l26.9 95.4 70.8-23.8z" class="triangle"/>
+  <path id="logo_tri12" fill="#6eafda" d="M316.5 231l97.7 71.6 24.7-60.5z" class="triangle"/>
+  <path id="logo_tri13" fill="#57a4d5" d="M438.9 242.1l-24.7 60.5 126.1-12.7z" class="triangle"/>
+  <path id="logo_tri14" fill="#5ca4d4" d="M438.9 242.1l101.4 47.8-39.6-69.4z" class="triangle"/>
+  <path id="logo_tri15" fill="#619dd0" d="M500.7 220.5l33.8 74.1 23-18.6-29.2-59z" class="triangle"/>
+  <path id="logo_tri16" fill="#5993cb" d="M557.5 276L540 289.9l24.7.4z" class="triangle"/>
+  <path id="logo_tri17" fill="#76b0de" d="M146.5 393.3L133.7 418l48.6 10.6z" class="triangle"/>
+  <path id="logo_tri18" fill="#82b9e3" d="M146.5 393.3l35.8 35.3.6-106z" class="triangle"/>
+  <path id="logo_tri19" fill="#68aadb" d="M189.2 310.2l-6.3 12.4-.6 106L300.2 439z" class="triangle"/>
+  <path id="logo_tri20" fill="#68acdc" d="M189.2 310.3l111 128.7 43.2-112.6L190 308.6z" class="triangle"/>
+  <path id="logo_tri21" fill="#4b9cd3" d="M343.4 326.4L300.2 439l114-25.4z" class="triangle"/>
+  <path id="logo_tri22" fill="#53a1d6" d="M343.4 326.4l70.8 87.2v-111z" class="triangle"/>
+  <path id="logo_tri23" fill="#499dd4" d="M414.2 302.6v111l126.1-123.7z" class="triangle"/>
+  <path id="logo_tri24" fill="#338ccb" d="M540.5 289.7L414.2 413.6l165.5 34.3z" class="triangle"/>
+  <path id="logo_tri25" fill="#418bca" d="M540.3 289.9l39.4 158.2 37.2-52.5-52.2-105.3z" class="triangle"/>
+  <path id="logo_tri26" fill="#2c79c0" d="M616.8 395.6l-37.1 52.3 74 22z" class="triangle"/>
+  <path id="logo_tri27" fill="#4b94cf" d="M109.9 464.2l-42.5 82.6 136 14.5z" class="triangle"/>
+  <path id="logo_tri28" fill="#539bd3" d="M133.7 418l-23.8 46.2 94.9 98.6-22.5-134.2z" class="triangle"/>
+  <path id="logo_tri29" fill="#4997d0" d="M182.3 428.6l20.9 132.6 97-122.2z" class="triangle"/>
+  <path id="logo_tri30" fill="#348ac9" d="M300.2 439l-97.3 122.3 138.2-42.5z" class="triangle"/>
+  <path id="logo_tri31" fill="#358dcb" d="M300.2 439l40.9 79.8 73.1-105.2z" class="triangle"/>
+  <path id="logo_tri32" fill="#2181c5" d="M414.2 413.6l-73.1 105.2 128.4-12.7z" class="triangle"/>
+  <path id="logo_tri33" fill="#1a7ec3" d="M414.2 413.6l55.3 92.6 110.2-58.3z" class="triangle"/>
+  <path id="logo_tri34" fill="#0f71bc" d="M579.8 447.8L469 506.1l117.5.7z" class="triangle"/>
+  <path id="logo_tri35" fill="#146cba" d="M579.7 447.8l6.8 59 67.2-36.9z" class="triangle"/>
+  <path id="logo_tri36" fill="#0562b3" d="M657 476.5l-3.3-6.7-67.2 37 28.3 69.4z" class="triangle"/>
+  <path id="logo_tri37" fill="#0159af" d="M657 476.5l-42.2 99.7 80.6-22.2z" class="triangle"/>
+  <path id="logo_tri38" fill="#5889c9" d="M41.68 596.7l-9.85 19.2 31.97-.2z" class="triangle"/>
+  <path id="logo_tri39" fill="#528ccb" d="M41.66 596.8l22.25 19.1 3.5-69.1z" class="triangle"/>
+  <path id="logo_tri40" fill="#4988c8" d="M67.41 546.8l-3.61 68.9 139.5-54.5z" class="triangle"/>
+  <path id="logo_tri41" fill="#447cc2" d="M203.2 561.2L63.71 615.7 107.4 644H181z" class="triangle"/>
+  <path id="logo_tri42" fill="#3870bc" d="M203.2 561.1L181 644h86.3z" class="triangle"/>
+  <path id="logo_tri43" fill="#2b77bf" d="M203.1 561.2l64.2 82.8h46.2l27.6-125.2z" class="triangle"/>
+  <path id="logo_tri44" fill="#1d6cb9" d="M341.1 518.8L312.8 644h45.9l46.6-37.3z" class="triangle"/>
+  <path id="logo_tri45" fill="#1073bd" d="M341.1 518.8l64.3 88.1L469.5 506z" class="triangle"/>
+  <path id="logo_tri46" fill="#0061b3" d="M469.3 506l-64 100.7L584.7 644z" class="triangle"/>
+  <path id="logo_tri47" fill="#005bb0" d="M469.3 506l115.4 138 30.1-67.8z" class="triangle"/>
+  <path id="logo_tri48" fill="#0165b6" d="M469.2 506l145.6 70.2-28.3-69.4z" class="triangle"/>
+  <path id="logo_tri49" fill="#0049a6" d="M614.8 576.2L584.7 644h86.6z" class="triangle"/>
+  <path id="logo_tri50" fill="#004aa7" d="M614.8 576.2l52 67.8 43.1-60.8-14.5-29.2z" class="triangle"/>
+  <path id="logo_tri51" fill="#003a9e" d="M709.9 583.1L666.8 644H740z" class="triangle"/>
+  <path id="logo_tri52" fill="#5a7dc2" d="M31.85 615.9L17.35 644l46.25-28.3z" class="triangle"/>
+  <path id="logo_tri53" fill="#5371bc" d="M63.65 615.6L17.35 644h47.44z" class="triangle"/>
+  <path id="logo_tri54" fill="#4a71bc" d="M63.58 615.6l1.18 28.4h42.74z" class="triangle"/>
+  <path id="logo_tri55" fill="#1354ac" d="M358.7 644h58.8l-12.1-37.5z" class="triangle"/>
+  <path id="logo_tri56" fill="#004da8" d="M405.2 606.6l12.3 37.4h167.2z" class="triangle"/>
+  <path id="logo_snow" fill="#fff" d="M343.7 63.85l63.4 80.65 69.8 38.1L551.2 332l-41.7-32.6-29.9 27.2-35.3-35.3-28.1 35.3-37.1-27.2-30 27.2-35.2-19-30.9 19-33.5-27.2-45.3 33.5z"/>
+  <path id="logo_outline" fill="none" stroke="#fff" stroke-width="11.896" d="M14.37 640.1L337.5 12.54l85.3 108.06 78.3 43.6 236 475.9z"/>
 </svg>

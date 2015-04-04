@@ -1,0 +1,28 @@
+#portfolio{
+  background-color: #333;
+  background:
+    linear-gradient(
+      rgba(10, 10, 10, 0.2),
+      rgba(10, 10, 10, 0.7)
+    ),
+    url(images/footer_lodyas.png);
+}
+
+.card{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.7);
+  background:
+    linear-gradient(
+      rgba(200, 200, 200, 0.2),
+      rgba(200, 200, 200, 0.5)
+    ),
+    url(images/footer_lodyas.png);
+  padding: 1em;
+  border-top: #444 1px solid;
+  border-bottom: #222 1px solid;
+
+  .gt-org-avatar{
+    width: 5em;
+    height: 5em;
+  }
+}

@@ -11,6 +11,9 @@ html(manifest='manifest.appcache' lang="en-GB")
             include ../images/logo.svg
           h1 Developer Mountain
 
+        noscript
+          p
+            | Our site makes use of modernizr js to provide additional features, disabling javascript may affect performance in older browsers.
         p Looking for talented developers to build web apps, mobile apps or other software projects? Or need extra support for your development team?
         p We can help.
           = ' '
@@ -23,5 +26,4 @@ html(manifest='manifest.appcache' lang="en-GB")
       include partials/portfolio.jade
 
     script(src='holding_page.js')
-
     include partials/footer.jade
